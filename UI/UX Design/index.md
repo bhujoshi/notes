@@ -9,3 +9,8 @@ Note: iOS recommends 44 x 44dp targets.
 
 ## Target spacing
 In most cases, targets separated by 8dp of space or more promote balanced information density and usability.
+
+## Must do pratices before building somethings new.
+- Check if this can be done using some already exsiting library
+- Explore the possible ui designs available around this and make a some protoype to test design you can use.
+- try to make the user experiece awesome.
