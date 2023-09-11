@@ -1,0 +1,12 @@
+## singleton pattern 
+Share only single globle instance throwout the application
+
+```
+let isInstance = False;
+class Counter {
+    if(isInstance){
+        throw new Error ("Only allowed one instance");
+    }
+    isInstance = True;
+}
+```
