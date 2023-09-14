@@ -1,12 +1,43 @@
 ## singleton pattern 
 Share only single globle instance throwout the application
-
+Singleton Object can be created using below example. But most of the singleton are globel object. Which is not recommanded using state management library like Redux or React.Context is much safer.
 ```
 let isInstance = False;
+let counter = 0
 class Counter {
     if(isInstance){
         throw new Error ("Only allowed one instance");
     }
     isInstance = True;
+
+    getInstance() {
+        return this
+    }
+
+    getCount() {
+        return counter;
+    }
+
+    increament() {
+        return counter += 1
+    }
+
+    decrement(){
+        return counter -= 1
+    }
 }
+
+const singletonCounter = Object.freeze(new Counter());
+
+export default singletonCounter;
+
+
 ```
+
+## Proxy pattern 
+Share a single globel object throughout you application.
+A proxy can have verious use cases. Validation, Formatting, Notification and Debuging. Avoid using proxy in performacer critical code.
+
+
+## Provider pattern
+
