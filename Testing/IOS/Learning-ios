@@ -1,0 +1,120 @@
+ ## Create a new playground in xcode 
+ Click on the file > new > playground 
+
+ ## define constant in swift 
+ `let name = "Hello"`
+ ## defina a variable in swift 
+ ```
+ var age = 20
+ age = 30
+ print(age)
+ ```
+
+ ## types in swift
+ swift support following data types 
+ Int 
+ Double 
+ String
+ Boolean
+ Array
+ Dictionary
+
+You can also define own types 
+
+```
+struct Person {
+    let firstName: String
+    let lastName: String
+    
+    func sayHello(){
+        print("hello, my name is \(firstName) \(lastName)")
+    }
+}
+
+
+let aPerson = Person(firstName: "Bhuwan ", lastName: "Joshi")
+
+let bPerson = Person(firstName: "Tiwari", lastName:  "Nitin")
+
+aPerson.sayHello()
+
+bPerson.sayHello()
+```
+
+## control flows 
+
+```
+if temperature <= 100 {
+    print("Water is boiling ")
+} else if temperature > 200 {
+    print("Converted to air")
+} else {
+    print("Not sure something worng ")
+}
+```
+
+
+## Debuging an application 
+
+## Documentation in xcode 
+
+## Interface builder basics 
+
+Click on the plus icon to find the ui interfaces in XCODE 
+
+Facing issue in wrapping the text to new line. 
+
+Click on assistant after clicking second right icon on top to open Veiw Controller
+
+
+
+## intregration to ui kit 
+
+### Functions 
+
+There is concept giving label name in defination 
+
+Example 
+```
+func sayHello(to person: String, and anotherPerson: String){
+    print("Hello \(person) and \(anotherPerson).")
+}
+
+sayHello(to: "Bhuwan", and: "Joshi")
+
+```
+
+### Structures 
+
+Computed properties 
+
+### Classes and Inheritance
+
+The only difference betweeen classes and structures is classes can inherit.
+
+### Collections
+Array and Dictionary two types of collestions are used in swift language.
+
+
+### Loops 
+
+## Introduction to UiKit 
+
+Segment control are used to allow user to select from segment.
+
+### Control in action 
+Code for attach action to button 
+```
+@IBAction func buttonTapped(_ sender: Any) {
+        print("Check button click working or not ")
+    }
+``` 
+
+## Auto layout and stack view 
+
+### stack view 
+
+## Naviagiotn and workflows 
+
+
+
