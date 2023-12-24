@@ -41,3 +41,16 @@ A proxy can have verious use cases. Validation, Formatting, Notification and Deb
 
 ## Provider pattern
 
+The main purpose of provier pattern is providing access of globel data to all the components. 
+
+## Prototype pattern 
+
+
+## Container / Presentational patterns 
+
+We can use custom hooks to remove Container wrapper and simply use the hook to get data.
+
+## Observable pattern 
+RxJS is a popular library which uses observable pattern.
+
+## Mixin pattern 

@@ -1,0 +1,1 @@
+https://blog.allegro.tech/2023/11/how-does-btree-make-your-queries-fast.html 
