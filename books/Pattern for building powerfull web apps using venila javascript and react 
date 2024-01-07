@@ -43,6 +43,7 @@ A proxy can have verious use cases. Validation, Formatting, Notification and Deb
 
 The main purpose of provier pattern is providing access of globel data to all the components. 
 
+
 ## Prototype pattern 
 
 
